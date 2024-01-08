@@ -1,0 +1,758 @@
+2024-01-08 12:59:03.774923
+ * Serving Flask app 'proxy'
+ * Debug mode: on
+2024-01-08 12:59:03.991218
+2024-01-08 13:00:26.257869
+ * Serving Flask app 'proxy'
+ * Debug mode: on
+2024-01-08 13:00:26.480905
+2024-01-08 13:00:54.655610
+ * Serving Flask app 'proxy'
+ * Debug mode: on
+2024-01-08 13:00:54.868580
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'checkauth')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=checkauth - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{}
+Метод GET:
+?type=catalog&mode=checkauth
+
+Ответ текст: success
+PHPSESSID
+cdu0av2992sjfr34qejk0ve8nj
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=iqOOJFy1MrasFIPDmdmL; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:01:31 GMT, PHPSESSID=cdu0av2992sjfr34qejk0ve8nj; path=/; secure; HttpOnly', 'Date': 'Mon, 08 Jan 2024 13:01:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'iqOOJFy1MrasFIPDmdmL', 'PHPSESSID': 'cdu0av2992sjfr34qejk0ve8nj'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=cdu0av2992sjfr34qejk0ve8nj
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'init')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'cdu0av2992sjfr34qejk0ve8nj')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=init - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=cdu0av2992sjfr34qejk0ve8nj', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'cdu0av2992sjfr34qejk0ve8nj'}
+Метод GET:
+?type=catalog&mode=init
+
+Ответ текст: zip=no
+file_limit=3145728
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=ERQHf6eRibN97OzFqnj9; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:01:31 GMT', 'Date': 'Mon, 08 Jan 2024 13:01:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'ERQHf6eRibN97OzFqnj9'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+POST - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+Content-Length: 9807
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=cdu0av2992sjfr34qejk0ve8nj
+Content-Type: application/octet-stream
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'file'), ('filename', 'import.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'cdu0av2992sjfr34qejk0ve8nj')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=file&filename=import.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'Content-Length': '9807', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=cdu0av2992sjfr34qejk0ve8nj', 'Content-Type': 'application/octet-stream', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+9807
+Куки:
+{'PHPSESSID': 'cdu0av2992sjfr34qejk0ve8nj'}
+Метод POST
+?type=catalog&mode=file&filename=import.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=Zi0KuLIGdCXzRbNj3GWn; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:01:31 GMT', 'Date': 'Mon, 08 Jan 2024 13:01:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'Zi0KuLIGdCXzRbNj3GWn'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+POST - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+Content-Length: 4747
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=cdu0av2992sjfr34qejk0ve8nj
+Content-Type: application/octet-stream
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'file'), ('filename', 'offers.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'cdu0av2992sjfr34qejk0ve8nj')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=file&filename=offers.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'Content-Length': '4747', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=cdu0av2992sjfr34qejk0ve8nj', 'Content-Type': 'application/octet-stream', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+4747
+Куки:
+{'PHPSESSID': 'cdu0av2992sjfr34qejk0ve8nj'}
+Метод POST
+?type=catalog&mode=file&filename=offers.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=lcf2zvLgBm7FbcklSGcp; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:01:32 GMT', 'Date': 'Mon, 08 Jan 2024 13:01:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'lcf2zvLgBm7FbcklSGcp'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=cdu0av2992sjfr34qejk0ve8nj
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'import.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'cdu0av2992sjfr34qejk0ve8nj')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=import.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=cdu0av2992sjfr34qejk0ve8nj', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'cdu0av2992sjfr34qejk0ve8nj'}
+Метод GET:
+?type=catalog&mode=import&filename=import.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=qwpoG9QQ4sr4ffZyOPtI; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:01:32 GMT', 'Date': 'Mon, 08 Jan 2024 13:01:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'qwpoG9QQ4sr4ffZyOPtI'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=cdu0av2992sjfr34qejk0ve8nj
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'offers.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'cdu0av2992sjfr34qejk0ve8nj')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=offers.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=cdu0av2992sjfr34qejk0ve8nj', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'cdu0av2992sjfr34qejk0ve8nj'}
+Метод GET:
+?type=catalog&mode=import&filename=offers.xml
+
+Ответ текст: progress
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=qcoKkbzofY7s4J47ifF5; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:01:32 GMT', 'Date': 'Mon, 08 Jan 2024 13:01:33 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'qcoKkbzofY7s4J47ifF5'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=cdu0av2992sjfr34qejk0ve8nj
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'offers.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'cdu0av2992sjfr34qejk0ve8nj')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=offers.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=cdu0av2992sjfr34qejk0ve8nj', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'cdu0av2992sjfr34qejk0ve8nj'}
+Метод GET:
+?type=catalog&mode=import&filename=offers.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=578C0aHXDT3pw63qbWiu; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:01:42 GMT', 'Date': 'Mon, 08 Jan 2024 13:01:44 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': '578C0aHXDT3pw63qbWiu'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+User-Agent: 1C+Enterprise/8.2
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'sale'), ('mode', 'checkauth')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=sale&mode=checkauth - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'User-Agent': '1C+Enterprise/8.2', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{}
+Метод GET:
+?type=sale&mode=checkauth
+
+Ответ текст: success
+PHPSESSID
+jibpf3e2qi0ljm9i7o306i6af3
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=EIowo6fiF6ehvJ6ZHBta; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:31 GMT, PHPSESSID=jibpf3e2qi0ljm9i7o306i6af3; path=/; secure; HttpOnly', 'Date': 'Mon, 08 Jan 2024 13:02:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'EIowo6fiF6ehvJ6ZHBta', 'PHPSESSID': 'jibpf3e2qi0ljm9i7o306i6af3'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'checkauth')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=checkauth - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{}
+Метод GET:
+?type=catalog&mode=checkauth
+
+Ответ текст: success
+PHPSESSID
+la6ka91p4bf18aten6lutra807
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=DhpjHwImz0zVFXNJVUuk; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:31 GMT, PHPSESSID=la6ka91p4bf18aten6lutra807; path=/; secure; HttpOnly', 'Date': 'Mon, 08 Jan 2024 13:02:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'DhpjHwImz0zVFXNJVUuk', 'PHPSESSID': 'la6ka91p4bf18aten6lutra807'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=la6ka91p4bf18aten6lutra807
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'init')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'la6ka91p4bf18aten6lutra807')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=init - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=la6ka91p4bf18aten6lutra807', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'la6ka91p4bf18aten6lutra807'}
+Метод GET:
+?type=catalog&mode=init
+
+Ответ текст: zip=no
+file_limit=3145728
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=4E9ThAFBfR6XxzjyRXyb; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:31 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': '4E9ThAFBfR6XxzjyRXyb'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+POST - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+Content-Length: 9807
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=la6ka91p4bf18aten6lutra807
+Content-Type: application/octet-stream
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'file'), ('filename', 'import.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'la6ka91p4bf18aten6lutra807')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=file&filename=import.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'Content-Length': '9807', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=la6ka91p4bf18aten6lutra807', 'Content-Type': 'application/octet-stream', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+9807
+Куки:
+{'PHPSESSID': 'la6ka91p4bf18aten6lutra807'}
+Метод POST
+?type=catalog&mode=file&filename=import.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=aVsZwYjZWJljUnNJDWlD; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:31 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'aVsZwYjZWJljUnNJDWlD'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+POST - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+Content-Length: 4747
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=la6ka91p4bf18aten6lutra807
+Content-Type: application/octet-stream
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'file'), ('filename', 'offers.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'la6ka91p4bf18aten6lutra807')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=file&filename=offers.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'Content-Length': '4747', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=la6ka91p4bf18aten6lutra807', 'Content-Type': 'application/octet-stream', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+4747
+Куки:
+{'PHPSESSID': 'la6ka91p4bf18aten6lutra807'}
+Метод POST
+?type=catalog&mode=file&filename=offers.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=HNUdSCRk1SHqkPeCXisN; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:32 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:32 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'HNUdSCRk1SHqkPeCXisN'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=la6ka91p4bf18aten6lutra807
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'import.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'la6ka91p4bf18aten6lutra807')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=import.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=la6ka91p4bf18aten6lutra807', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'la6ka91p4bf18aten6lutra807'}
+Метод GET:
+?type=catalog&mode=import&filename=import.xml
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=la6ka91p4bf18aten6lutra807
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'offers.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'la6ka91p4bf18aten6lutra807')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=offers.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=la6ka91p4bf18aten6lutra807', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'la6ka91p4bf18aten6lutra807'}
+Метод GET:
+?type=catalog&mode=import&filename=offers.xml
+
+Ответ текст: progress
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=abJrcsT4Uqu2s9o1oWVv; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:32 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:33 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'abJrcsT4Uqu2s9o1oWVv'}
+
+----------------------------------------------------------------
+
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=la6ka91p4bf18aten6lutra807
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'offers.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', 'la6ka91p4bf18aten6lutra807')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=offers.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=la6ka91p4bf18aten6lutra807', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': 'la6ka91p4bf18aten6lutra807'}
+Метод GET:
+?type=catalog&mode=import&filename=offers.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=AQJrysMoQOPOCekUFPlp; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:42 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:44 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'AQJrysMoQOPOCekUFPlp'}
+
+----------------------------------------------------------------
+
+
+
+
+
+
+Авторизация и отправка фото
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'checkauth')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=checkauth - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{}
+Метод GET:
+?type=catalog&mode=checkauth
+
+Ответ текст: success
+PHPSESSID
+0dmcc1nnc2khq9pnsf46b1mr40
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=bpvH6eyzMqokq2PNH6q4; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:44 GMT, PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40; path=/; secure; HttpOnly', 'Date': 'Mon, 08 Jan 2024 13:02:45 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'bpvH6eyzMqokq2PNH6q4', 'PHPSESSID': '0dmcc1nnc2khq9pnsf46b1mr40'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'init')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', '0dmcc1nnc2khq9pnsf46b1mr40')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=init - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': '0dmcc1nnc2khq9pnsf46b1mr40'}
+Метод GET:
+?type=catalog&mode=init
+
+Ответ текст: zip=no
+file_limit=3145728
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=HJZssOGQVok5HXlsYWCw; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:44 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:45 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'HJZssOGQVok5HXlsYWCw'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+POST - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+Content-Length: 37762
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40
+Content-Type: application/octet-stream
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'file'), ('filename', '1832f7a9-10b5-48a3-bbf3-d9d0668f3521_imageid.jpg')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', '0dmcc1nnc2khq9pnsf46b1mr40')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=file&filename=1832f7a9-10b5-48a3-bbf3-d9d0668f3521_imageid.jpg - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'Content-Length': '37762', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40', 'Content-Type': 'application/octet-stream', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+37762
+Куки:
+{'PHPSESSID': '0dmcc1nnc2khq9pnsf46b1mr40'}
+Метод POST
+?type=catalog&mode=file&filename=1832f7a9-10b5-48a3-bbf3-d9d0668f3521_imageid.jpg
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=TCKeTDmk40ulmnULPNHO; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:45 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:45 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'TCKeTDmk40ulmnULPNHO'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+POST - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+Content-Length: 7599
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40
+Content-Type: application/octet-stream
+Cache-Control: no-cache
+Pragma: no-cache
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'file'), ('filename', 'import.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', '0dmcc1nnc2khq9pnsf46b1mr40')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=file&filename=import.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'Content-Length': '7599', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40', 'Content-Type': 'application/octet-stream', 'Cache-Control': 'no-cache', 'Pragma': 'no-cache', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+7599
+Куки:
+{'PHPSESSID': '0dmcc1nnc2khq9pnsf46b1mr40'}
+Метод POST
+?type=catalog&mode=file&filename=import.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=Bp4QEaKBQE60MW0hQnbs; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:45 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:46 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'Bp4QEaKBQE60MW0hQnbs'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'import.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', '0dmcc1nnc2khq9pnsf46b1mr40')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=import.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': '0dmcc1nnc2khq9pnsf46b1mr40'}
+Метод GET:
+?type=catalog&mode=import&filename=import.xml
+
+Ответ текст: progress
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=HXTiCIHtRxB468DgVCSM; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:45 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:46 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'HXTiCIHtRxB468DgVCSM'}
+
+----------------------------------------------------------------
+
+ ------------------------------ Вход ------------------------------
+GET - request.method: метод HTTP-запроса (GET, POST, PUT, DELETE и т.д.)
+Host: alexeytest.wskitapp.ru
+Connection: close
+User-Agent: 1C+Enterprise/8.2
+Authorization: Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==
+Cookie: PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+ - request.headers: заголовки HTTP-запроса
+ImmutableMultiDict([('type', 'catalog'), ('mode', 'import'), ('filename', 'import.xml')]) - request.args: аргументы URL-запроса
+ImmutableMultiDict([]) - request.form: данные формы из POST-запроса
+ImmutableMultiDict([]) - request.files: загруженные файлы
+ImmutableMultiDict([('PHPSESSID', '0dmcc1nnc2khq9pnsf46b1mr40')]) - request.cookies: информация о куки
+http://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml?type=catalog&mode=import&filename=import.xml - request.url: URL текущего запроса
+/store.tilda.cc/connectors/commerceml - request.path: путь текущего запроса
+127.0.0.1 - request.remote_addr: IP-адрес клиента
+1C+Enterprise/8.2 - request.user_agent: информация о браузере клиента
+None - request.endpoint: имя конечной точки (view) для текущего запроса
+Заголовки запроса:
+{'Host': 'store.tilda.cc', 'Connection': 'close', 'User-Agent': '1C+Enterprise/8.2', 'Authorization': 'Basic NzY4MzkxNzo5NzA2ODY1ZjEyMGJhNTZkNTAxMGE4NzIzNjI2NTRhNg==', 'Cookie': 'PHPSESSID=0dmcc1nnc2khq9pnsf46b1mr40', 'Accept': 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2'}
+Текстовое содержимое:
+0
+Куки:
+{'PHPSESSID': '0dmcc1nnc2khq9pnsf46b1mr40'}
+Метод GET:
+?type=catalog&mode=import&filename=import.xml
+
+Ответ текст: success
+Заголовок: {'Server': 'ddos-guard', 'Connection': 'close', 'Set-Cookie': '__ddg1_=fcfSu0wjsLSArIdvseoy; Domain=.tilda.cc; HttpOnly; Path=/; Expires=Tue, 07-Jan-2025 13:02:55 GMT', 'Date': 'Mon, 08 Jan 2024 13:02:57 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Access-Control-Allow-Origin': '*', 'Content-Encoding': 'gzip', 'Transfer-Encoding': 'chunked'}
+Куки: {'__ddg1_': 'fcfSu0wjsLSArIdvseoy'}
+
+----------------------------------------------------------------
+
