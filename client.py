@@ -28,8 +28,8 @@ class ClientTilda:
     """Отправление запросов"""
     def __init__(self):
         # Пароль, логин и адрес для доступа к Tilda
-        self.username = '7362272'  # integration.login
-        self.password = '27c0d9b73d45b69ba80eba9243b6b248'  # integration.password
+        self.username = ''  # integration.login
+        self.password = ''  # integration.password
 
         self.url = 'https://store.tilda.cc/connectors/commerceml/'  # integration.address
         # self.url = 'https://alexeytest.wskitapp.ru/store.tilda.cc/connectors/commerceml '  # integration.address
