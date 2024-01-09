@@ -8,10 +8,13 @@ def steps_generator():
     data = (('get', 'catalog', 'checkauth', '', ''),
             ('get', 'catalog', 'init', '', ''),
             ('post', 'catalog', 'file', '12345.png', '12345.png'),
-            ('post', 'catalog', 'file', 'foto.xml', 'import.xml'),
+            ('post', 'catalog', 'file', 'import.xml', 'import.xml'),
+            ('post', 'catalog', 'file', 'offers.xml', 'offers.xml'),
             ('get', 'catalog', 'import', 'import.xml', ''),
+            ('get', 'catalog', 'import', 'offers.xml', ''),
             ('get', 'catalog', 'checkauth', '', ''),
             ('get', 'catalog', 'init', '', ''),
+            ('post', 'catalog', 'file', '12345.png', '12345.png'),
             ('post', 'catalog', 'file', 'import.xml', 'import.xml'),
             ('post', 'catalog', 'file', 'offers.xml', 'offers.xml'),
             ('get', 'catalog', 'import', 'import.xml', ''),
@@ -156,6 +159,14 @@ if res.status_code != 200:
     print('Ошибка отправки файла')
     exit()
 
+# Отправка файла offers
+print('Отправка файла offers')
+print('--------------------------------------')
+res = tilda.request(next(step))
+if res.status_code != 200:
+    print('Ошибка отправки файла')
+    exit()
+
 # Обработка файла import
 send = next(step)
 while True:
@@ -169,9 +180,21 @@ while True:
     if res.text == 'success':
         break
 
+# Обработка файла offers
+send = next(step)
+while True:
+    # Обработка файла import
+    print('Обработка файла offers')
+    print('--------------------------------------')
+    res = tilda.request(send)
+    if res.status_code != 200:
+        print('Ошибка отправки файла')
+        exit()
+    if res.text == 'success':
+        break
+
 
 tilda = ClientTilda()
-
 # Авторизация
 print('Авторизация')
 print('--------------------------------------')
@@ -188,6 +211,14 @@ print('--------------------------------------')
 res = tilda.request(next(step))
 if res.status_code != 200:
     print('Ошибка инициализации обмена')
+    exit()
+# time.sleep(3)
+# Отправка файла изображения
+print('Отправка файла изображения')
+print('--------------------------------------')
+res = tilda.request(next(step))
+if res.status_code != 200:
+    print('Ошибка отправки файла')
     exit()
 
 # Отправка файла import
@@ -231,4 +262,3 @@ while True:
         exit()
     if res.text == 'success':
         break
-
